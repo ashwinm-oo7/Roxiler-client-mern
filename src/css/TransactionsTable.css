@@ -1,0 +1,118 @@
+/* src/css/TransactionsTable.css */
+
+/* Container for the entire table */
+.table-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the search input */
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Table cell styling for Price, Date of Sale, and Sold status */
+  td {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Styling for the pagination buttons */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for pagination buttons container */
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Adjust table column widths */
+  th:nth-child(1),
+  td:nth-child(1) {
+    width: 25%;
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 30%;
+  }
+  
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 15%;
+  }
+  
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 15%;
+  }
+  
+  th:nth-child(5),
+  td:nth-child(5) {
+    width: 15%;
+  }
+  
+  

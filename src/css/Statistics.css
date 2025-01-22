@@ -1,0 +1,29 @@
+/* src/components/Statistics.css */
+.statistics-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statistics-container p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  .statistics-container h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .statistics-container div {
+    margin-bottom: 10px;
+  }
+  
+  .statistics-container span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  

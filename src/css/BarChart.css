@@ -1,0 +1,14 @@
+/* src/components/BarChart.css */
+.bar-chart-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .recharts-surface {
+    margin: 0 auto;
+  }
+  
